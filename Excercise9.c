@@ -2,13 +2,12 @@
 
 int addition (int num1,int num2)
 {
-	int sum = num1 + num2;
-	return sum;
+	return num1 + num2;
 }
 
 int main()
 {
-	int num1,num2,sum;
+	int num1,num2;
 
 	printf("Please enter two numbers ");
 
@@ -18,9 +17,8 @@ int main()
 	printf("\nNumber2: ");
 	scanf("%d",&num2);
 
-	sum = num1 + num2;
 
-	printf("The sum of the two numbers is %d",sum);
+	printf("The sum of the two numbers is %d",addition(num1,num2));
 	
 	return 0;
 }
